@@ -13,7 +13,6 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-// Generate HSL-based colors dynamically
 const generateColors = (count) => {
   const colors = [];
   for (let i = 0; i < count; i++) {
